@@ -28,109 +28,112 @@
 
 <body class="bg-zinc-950 text-white">
 
-    <!-- NAVBAR -->
-    <header class="bg-zinc-950 border-b border-zinc-800">
+  <!-- NAVBAR -->
+<header class="bg-zinc-950 border-b border-zinc-800 sticky top-0 z-50">
 
-        <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+    <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
-            <!-- LOGO -->
-            <a href="index.html" class="flex items-center gap-3">
+        <!-- LOGO -->
+        <a href="index.html" class="flex items-center gap-3">
 
-                <svg
-                    width="48"
-                    height="48"
-                    viewBox="0 0 100 100"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
+            <svg
+                width="48"
+                height="48"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
 
-                    <path
-                        d="M50 8L62 31L91 20L73 47L94 63L63 60L50 92L37 60L6 63L27 47L9 20L38 31L50 8Z"
-                        fill="#FACC15"
-                    />
+                <path
+                    d="M50 8L62 31L91 20L73 47L94 63L63 60L50 92L37 60L6 63L27 47L9 20L38 31L50 8Z"
+                    fill="#FACC15"
+                />
 
-                    <path
-                        d="M50 25L39 45L25 39L35 52L22 64L44 60L50 78L56 60L78 64L65 52L75 39L61 45L50 25Z"
-                        fill="#18181B"
-                    />
+                <path
+                    d="M50 25L39 45L25 39L35 52L22 64L44 60L50 78L56 60L78 64L65 52L75 39L61 45L50 25Z"
+                    fill="#18181B"
+                />
 
-                    <path
-                        d="M32 42L50 50L68 42"
-                        stroke="#FACC15"
-                        stroke-width="4"
-                    />
+                <path
+                    d="M32 42L50 50L68 42"
+                    stroke="#FACC15"
+                    stroke-width="4"
+                />
 
-                </svg>
+            </svg>
 
-                <div>
-                    <h1 class="text-2xl font-bold tracking-wider">
-                        EAGLE
-                    </h1>
+            <div>
+                <h1 class="text-2xl font-bold tracking-wider">
+                    EAGLE
+                </h1>
 
-                    <p class="text-xs text-yellow-400 tracking-widest">
-                        GYM
-                    </p>
-                </div>
-
-            </a>
-
-            <!-- MENU -->
-            <div class="hidden md:flex items-center gap-8 text-sm uppercase tracking-wide">
-
-                <a href="index.html">
-                    Home
-                </a>
-
-                <a href="gallery.html" class="text-yellow-400">
-                    Gallery
-                </a>
-
-                <a href="about.html">
-                    About
-                </a>
-
-                <a href="contact.html">
-                    Contact
-                </a>
-
-                <a
-                    href="contact.html"
-                    class="bg-yellow-400 text-black px-5 py-3 font-bold"
-                >
-                    Join Now
-                </a>
-
+                <p class="text-xs text-yellow-400 tracking-widest">
+                    GYM
+                </p>
             </div>
 
-        </nav>
+        </a>
 
-    </header>
+        <!-- MENU -->
+        <div class="hidden md:flex items-center gap-8 text-sm uppercase tracking-wide">
 
+            <a href="index.html" >
+                Home
+            </a>
 
-    <!-- GALLERY HERO -->
-    <section
-        class="py-24 px-6 bg-cover bg-center"
-        style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1800&q=85');"
-    >
+            <a href="gallery.html" class="text-yellow-400">
+                Gallery
+            </a>
 
-        <div class="max-w-7xl mx-auto text-center">
+            <a href="about.html">
+                About
+            </a>
 
-            <p class="text-yellow-400 uppercase tracking-widest font-bold">
-                Our Fitness World
-            </p>
+            <a href="contact.html">
+                Contact
+            </a>
 
-            <h2 class="text-5xl md:text-6xl font-bold uppercase mt-4">
-                Eagle Gym Gallery
-            </h2>
-
-            <p class="text-zinc-300 text-lg mt-5 max-w-2xl mx-auto">
-                Explore our gym, training sessions, powerful workouts,
-                modern equipment, and the energetic environment of Eagle Gym.
-            </p>
+            <a
+                href="contact.html"
+                class="bg-yellow-400 text-black px-5 py-3 font-bold"
+            >
+                Join Now
+            </a>
 
         </div>
 
-    </section>
+    </nav>
+
+</header>
+
+
+   <!-- GALLERY HERO -->
+<section
+    class="relative py-24 px-6 bg-cover bg-center"
+    style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1800&q=85');"
+>
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="max-w-7xl mx-auto text-center relative z-10">
+
+        <p class="text-yellow-400 uppercase tracking-widest font-bold">
+            Our Fitness World
+        </p>
+
+        <h2 class="text-5xl md:text-6xl font-bold uppercase mt-4">
+            Eagle Gym Gallery
+        </h2>
+
+        <p class="text-zinc-300 text-lg mt-5 max-w-2xl mx-auto">
+            Explore our gym, training sessions, powerful workouts,
+            modern equipment, and the energetic environment of Eagle Gym.
+        </p>
+
+    </div>
+
+</section>
 
 
     <!-- GALLERY SECTION -->

@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>About - Eagle Gym</title>
 
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap"
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" 
         rel="stylesheet"
     >
 
@@ -28,8 +25,8 @@
 
 <body class="bg-zinc-950 text-white">
 
-    <!-- NAVBAR -->
-    <header class="bg-zinc-950 border-b border-zinc-800">
+    <!-- Navbar -->
+ <header class="bg-zinc-950 border-b border-zinc-800 sticky top-0 z-50">
 
         <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
@@ -74,7 +71,6 @@
 
             </a>
 
-
             <!-- MENU -->
             <div class="hidden md:flex items-center gap-8 text-sm uppercase tracking-wide">
 
@@ -82,11 +78,11 @@
                     Home
                 </a>
 
-                <a href="gallery.html">
+                <a href="gallery.html" >
                     Gallery
                 </a>
 
-                <a href="about.html" class="text-yellow-400">
+                <a href="about.html"  class="text-yellow-400">
                     About
                 </a>
 
@@ -108,15 +104,21 @@
     </header>
 
 
-    <!-- HERO SECTION -->
-    <section
-        class="h-[400px] flex items-center justify-center text-center bg-cover bg-center"
-        style="background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=2000&q=85');"
-    >
 
-        <div class="px-6">
+    <!-- Hero Section -->
+    <section class="relative h-[400px] flex items-center justify-center text-center">
 
-            <p class="text-yellow-400 uppercase tracking-[5px] mb-4">
+        <img 
+            src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=2000&q=85"
+            alt="Eagle Gym Training"
+            class="absolute inset-0 w-full h-full object-cover"
+        >
+
+        <div class="absolute inset-0 bg-black/70"></div>
+
+        <div class="relative z-10 px-6">
+
+            <p class="text-yellow-400 uppercase mb-4">
                 Know About Us
             </p>
 
@@ -124,7 +126,7 @@
                 About Eagle Gym
             </h2>
 
-            <p class="text-zinc-300 mt-5 max-w-2xl mx-auto">
+            <p class="text-zinc-300 mt-5">
                 Your strength, our guidance, and a better version of yourself.
             </p>
 
@@ -133,15 +135,14 @@
     </section>
 
 
-    <!-- ABOUT INTRODUCTION -->
+    <!-- About Introduction -->
     <section class="max-w-7xl mx-auto px-6 py-20">
 
         <div class="grid lg:grid-cols-2 gap-12 items-center">
 
-            <!-- IMAGE -->
             <div>
 
-                <img
+                <img 
                     src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=85"
                     alt="Gym Equipment"
                     class="w-full h-[500px] object-cover"
@@ -150,10 +151,9 @@
             </div>
 
 
-            <!-- CONTENT -->
             <div>
 
-                <p class="text-yellow-400 uppercase tracking-[4px] mb-3">
+                <p class="text-yellow-400 uppercase mb-3">
                     Who We Are
                 </p>
 
@@ -175,7 +175,7 @@
                     fitness goals.
                 </p>
 
-                <a
+                <a 
                     href="contact.html"
                     class="inline-block bg-yellow-400 text-black px-7 py-4 font-bold uppercase"
                 >
@@ -189,17 +189,16 @@
     </section>
 
 
-    <!-- MISSION SECTION -->
+    <!-- Mission Section -->
     <section class="bg-zinc-900 py-20">
 
         <div class="max-w-7xl mx-auto px-6">
 
             <div class="grid lg:grid-cols-2 gap-12 items-center">
 
-                <!-- CONTENT -->
                 <div>
 
-                    <p class="text-yellow-400 uppercase tracking-[4px] mb-3">
+                    <p class="text-yellow-400 uppercase mb-3">
                         Our Mission
                     </p>
 
@@ -215,7 +214,6 @@
 
                     <div class="grid sm:grid-cols-2 gap-5">
 
-                        <!-- QUALITY TRAINING -->
                         <div class="border border-zinc-700 p-5">
 
                             <h3 class="text-xl text-yellow-400 font-bold mb-2">
@@ -229,7 +227,6 @@
                         </div>
 
 
-                        <!-- POSITIVE ENERGY -->
                         <div class="border border-zinc-700 p-5">
 
                             <h3 class="text-xl text-yellow-400 font-bold mb-2">
@@ -247,10 +244,9 @@
                 </div>
 
 
-                <!-- IMAGE -->
                 <div>
 
-                    <img
+                    <img 
                         src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1200&q=85"
                         alt="Personal Training"
                         class="w-full h-[500px] object-cover"
@@ -265,12 +261,12 @@
     </section>
 
 
-    <!-- FACILITIES SECTION -->
+    <!-- Facilities Section -->
     <section class="max-w-7xl mx-auto px-6 py-20">
 
         <div class="text-center mb-12">
 
-            <p class="text-yellow-400 uppercase tracking-[4px] mb-3">
+            <p class="text-yellow-400 uppercase mb-3">
                 Our Facilities
             </p>
 
@@ -283,10 +279,10 @@
 
         <div class="grid md:grid-cols-3 gap-8">
 
-            <!-- FACILITY 1 -->
+            <!-- Facility 1 -->
             <div class="bg-zinc-900 border border-zinc-800">
 
-                <img
+                <img 
                     src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=900&q=85"
                     alt="Modern Gym Equipment"
                     class="w-full h-64 object-cover"
@@ -308,10 +304,10 @@
             </div>
 
 
-            <!-- FACILITY 2 -->
+            <!-- Facility 2 -->
             <div class="bg-zinc-900 border border-zinc-800">
 
-                <img
+                <img 
                     src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=85"
                     alt="Fitness Workout"
                     class="w-full h-64 object-cover"
@@ -333,10 +329,10 @@
             </div>
 
 
-            <!-- FACILITY 3 -->
+            <!-- Facility 3 -->
             <div class="bg-zinc-900 border border-zinc-800">
 
-                <img
+                <img 
                     src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=85"
                     alt="Gym Workout Session"
                     class="w-full h-64 object-cover"
@@ -362,15 +358,14 @@
     </section>
 
 
-    <!-- MEMBERSHIP PRICING SECTION -->
+    <!-- Membership Pricing -->
     <section class="bg-zinc-900 py-20">
 
         <div class="max-w-7xl mx-auto px-6">
 
-            <!-- SECTION HEADING -->
             <div class="text-center mb-12">
 
-                <p class="text-yellow-400 uppercase tracking-[4px] mb-3">
+                <p class="text-yellow-400 uppercase mb-3">
                     Membership Plans
                 </p>
 
@@ -378,17 +373,16 @@
                     Choose Your Plan
                 </h2>
 
-                <p class="text-zinc-400 mt-4 max-w-2xl mx-auto">
+                <p class="text-zinc-400 mt-4">
                     Select the best membership plan according to your fitness goals.
                 </p>
 
             </div>
 
 
-            <!-- PRICING CARDS -->
             <div class="grid md:grid-cols-3 gap-8">
 
-                <!-- BASIC PLAN -->
+                <!-- Basic -->
                 <div class="bg-zinc-950 border border-zinc-700 p-8 text-center">
 
                     <h3 class="text-2xl font-bold uppercase">
@@ -420,7 +414,7 @@
 
                     </ul>
 
-                    <a
+                    <a 
                         href="contact.html"
                         class="block bg-yellow-400 text-black py-3 font-bold uppercase"
                     >
@@ -430,12 +424,8 @@
                 </div>
 
 
-                <!-- STANDARD PLAN -->
+                <!-- Standard -->
                 <div class="bg-yellow-400 text-black p-8 text-center">
-
-                    <span class="inline-block bg-black text-white px-4 py-2 text-sm uppercase mb-5">
-                        Popular
-                    </span>
 
                     <h3 class="text-2xl font-bold uppercase">
                         Standard Plan
@@ -466,7 +456,7 @@
 
                     </ul>
 
-                    <a
+                    <a 
                         href="contact.html"
                         class="block bg-black text-white py-3 font-bold uppercase"
                     >
@@ -476,7 +466,7 @@
                 </div>
 
 
-                <!-- PREMIUM PLAN -->
+                <!-- Premium -->
                 <div class="bg-zinc-950 border border-zinc-700 p-8 text-center">
 
                     <h3 class="text-2xl font-bold uppercase">
@@ -508,7 +498,7 @@
 
                     </ul>
 
-                    <a
+                    <a 
                         href="contact.html"
                         class="block bg-yellow-400 text-black py-3 font-bold uppercase"
                     >
@@ -524,7 +514,7 @@
     </section>
 
 
-    <!-- CTA SECTION -->
+    <!-- CTA Section -->
     <section class="bg-yellow-400 text-black py-16 px-6 text-center">
 
         <h2 class="text-4xl md:text-5xl font-bold uppercase">
@@ -535,7 +525,7 @@
             Train hard today for a stronger tomorrow.
         </p>
 
-        <a
+        <a 
             href="contact.html"
             class="inline-block mt-7 bg-black text-white px-8 py-4 uppercase font-bold"
         >
@@ -545,8 +535,12 @@
     </section>
 
 
-    <!-- FOOTER -->
-    <footer class="bg-black py-10 px-6">
+  
+    </section>
+
+
+    <!-- Footer -->
+   <footer class="bg-black py-10 px-6">
 
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6">
 
@@ -601,7 +595,5 @@
         </div>
 
     </footer>
-
 </body>
-
 </html>

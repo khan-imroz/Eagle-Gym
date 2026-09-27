@@ -24,144 +24,153 @@
             font-family: 'Oswald', sans-serif;
         }
     </style>
+
 </head>
 
 <body class="bg-zinc-950 text-white">
+<!-- NAVBAR -->
+<header class="bg-zinc-950 border-b border-zinc-800 sticky top-0 z-50">
 
-    <!-- NAVBAR -->
-    <header class="bg-zinc-950 border-b border-zinc-800">
+    <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
 
-        <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+        <!-- LOGO -->
+        <a href="index.html" class="flex items-center gap-3">
 
-            <!-- LOGO -->
-            <a href="index.html" class="flex items-center gap-3">
+            <svg
+                width="48"
+                height="48"
+                viewBox="0 0 100 100"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
 
-                <svg
-                    width="48"
-                    height="48"
-                    viewBox="0 0 100 100"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
+                <path
+                    d="M50 8L62 31L91 20L73 47L94 63L63 60L50 92L37 60L6 63L27 47L9 20L38 31L50 8Z"
+                    fill="#FACC15"
+                />
 
-                    <path
-                        d="M50 8L62 31L91 20L73 47L94 63L63 60L50 92L37 60L6 63L27 47L9 20L38 31L50 8Z"
-                        fill="#FACC15"
-                    />
+                <path
+                    d="M50 25L39 45L25 39L35 52L22 64L44 60L50 78L56 60L78 64L65 52L75 39L61 45L50 25Z"
+                    fill="#18181B"
+                />
 
-                    <path
-                        d="M50 25L39 45L25 39L35 52L22 64L44 60L50 78L56 60L78 64L65 52L75 39L61 45L50 25Z"
-                        fill="#18181B"
-                    />
+                <path
+                    d="M32 42L50 50L68 42"
+                    stroke="#FACC15"
+                    stroke-width="4"
+                />
 
-                    <path
-                        d="M32 42L50 50L68 42"
-                        stroke="#FACC15"
-                        stroke-width="4"
-                    />
+            </svg>
 
-                </svg>
+            <div>
+                <h1 class="text-2xl font-bold tracking-wider">
+                    EAGLE
+                </h1>
 
-                <div>
-                    <h1 class="text-2xl font-bold tracking-wider">
-                        EAGLE
-                    </h1>
+                <p class="text-xs text-yellow-400 tracking-widest">
+                    GYM
+                </p>
+            </div>
 
-                    <p class="text-xs text-yellow-400 tracking-widest">
-                        GYM
-                    </p>
-                </div>
+        </a>
 
+        <!-- MENU -->
+        <div class="hidden md:flex items-center gap-8 text-sm uppercase tracking-wide">
+
+            <a href="index.html" class="text-yellow-400">
+                Home
             </a>
 
-            <!-- MENU -->
-            <div class="hidden md:flex items-center gap-8 text-sm uppercase tracking-wide">
+            <a href="gallery.html">
+                Gallery
+            </a>
 
-                <a href="index.html" class="text-yellow-400">
-                    Home
-                </a>
+            <a href="about.html">
+                About
+            </a>
 
-                <a href="gallery.html">
-                    Gallery
-                </a>
+            <a href="contact.html">
+                Contact
+            </a>
 
-                <a href="about.html">
-                    About
-                </a>
+            <a
+                href="contact.html"
+                class="bg-yellow-400 text-black px-5 py-3 font-bold"
+            >
+                Join Now
+            </a>
 
-                <a href="contact.html">
-                    Contact
-                </a>
+        </div>
+
+    </nav>
+
+</header>
+
+   <!-- HERO SECTION -->
+
+<section
+    class="relative min-h-[720px] flex items-center bg-cover bg-center"
+    style="background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=2000&q=85');"
+>
+
+    <!-- DARK OVERLAY -->
+    <div class="absolute inset-0 bg-black/60"></div>
+
+
+    <!-- HERO CONTENT -->
+
+    <div class="max-w-7xl mx-auto px-6 w-full relative z-10">
+
+        <div class="max-w-3xl">
+
+            <p class="text-yellow-400 font-bold uppercase mb-5">
+                Welcome to Eagle Gym
+            </p>
+
+
+            <h2 class="text-5xl md:text-7xl font-bold uppercase">
+
+                Rise Above
+
+                <span class="text-yellow-400 block">
+                    Your Limits.
+                </span>
+
+            </h2>
+
+
+            <p class="text-zinc-300 text-lg mt-6 max-w-xl">
+                Build strength, improve your fitness, and become the strongest
+                version of yourself. Your transformation starts here.
+            </p>
+
+
+            <!-- BUTTONS -->
+
+            <div class="flex gap-4 mt-8">
 
                 <a
                     href="contact.html"
-                    class="bg-yellow-400 text-black px-5 py-3 font-bold"
+                    class="bg-yellow-400 text-black px-7 py-4 font-bold uppercase"
                 >
-                    Join Now
+                    Join Our Gym
                 </a>
 
-            </div>
 
-        </nav>
-
-    </header>
-
-
-    <!-- HERO SECTION -->
-    <section
-        class="min-h-[720px] flex items-center bg-cover bg-center"
-        style="background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=2000&q=85');"
-    >
-
-        <!-- HERO CONTENT -->
-        <div class="max-w-7xl mx-auto px-6 pt-28 w-full">
-
-            <div class="max-w-3xl">
-
-                <p class="text-yellow-400 font-bold tracking-widest uppercase mb-5">
-                    Welcome to Eagle Gym
-                </p>
-
-                <h2 class="text-5xl md:text-7xl font-bold uppercase leading-tight">
-
-                    Rise Above
-
-                    <span class="text-yellow-400 block">
-                        Your Limits.
-                    </span>
-
-                </h2>
-
-                <p class="text-zinc-300 text-lg md:text-xl mt-6 max-w-xl leading-relaxed">
-                    Build strength, improve your fitness, and become the strongest
-                    version of yourself. Your transformation starts here.
-                </p>
-
-                <!-- BUTTONS -->
-                <div class="flex flex-wrap gap-4 mt-8">
-
-                    <a
-                        href="contact.html"
-                        class="bg-yellow-400 text-black px-7 py-4 font-bold uppercase"
-                    >
-                        Join Our Gym
-                    </a>
-
-                    <a
-                        href="gallery.html"
-                        class=" px-7 py-4 font-bold uppercase bg-black"
-                    >
-                        Explore Gallery
-                    </a>
-
-                </div>
+                <a
+                    href="gallery.html"
+                    class="bg-black px-7 py-4 font-bold uppercase"
+                >
+                    Explore Gallery
+                </a>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
 
+</section>
 
     <!-- STATS SECTION -->
     <section class="bg-yellow-400 text-black">
@@ -424,38 +433,40 @@
     </section>
 
 
-    <!-- CTA SECTION -->
-    <section
-        class="py-24 px-6 bg-cover bg-center"
-        style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1800&q=85');"
-    >
+   <!-- CTA SECTION -->
+<section
+    class="relative py-24 px-6 bg-cover bg-center"
+    style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1800&q=85');"
+>
 
-        <div class="max-w-4xl mx-auto text-center">
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/60"></div>
 
-            <p class="text-yellow-400 uppercase tracking-widest font-bold">
-                Your Journey Starts Today
-            </p>
+    <div class="max-w-4xl mx-auto text-center relative z-10">
 
-            <h2 class="text-4xl md:text-6xl font-bold uppercase mt-4">
-                Stronger Every Day
-            </h2>
+        <p class="text-yellow-400 uppercase tracking-widest font-bold">
+            Your Journey Starts Today
+        </p>
 
-            <p class="text-zinc-300 text-lg mt-5">
-                Stop waiting for the perfect time. Take the first step
-                toward a stronger, healthier you.
-            </p>
+        <h2 class="text-4xl md:text-6xl font-bold uppercase mt-4">
+            Stronger Every Day
+        </h2>
 
-            <a
-                href="contact.html"
-                class="inline-block mt-8 bg-yellow-400 text-black px-8 py-4 font-bold uppercase"
-            >
-                Join Eagle Gym
-            </a>
+        <p class="text-zinc-300 text-lg mt-5">
+            Stop waiting for the perfect time. Take the first step
+            toward a stronger, healthier you.
+        </p>
 
-        </div>
+        <a
+            href="contact.html"
+            class="inline-block mt-8 bg-yellow-400 text-black px-8 py-4 font-bold uppercase"
+        >
+            Join Eagle Gym
+        </a>
 
-    </section>
+    </div>
 
+</section>
 
     <!-- FOOTER -->
     <footer class="bg-black py-10 px-6">
